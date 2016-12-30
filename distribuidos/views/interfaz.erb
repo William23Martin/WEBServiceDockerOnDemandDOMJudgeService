@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <h1>Sistemas Distribuidos</h1>
+ </head>
+
+ <body>
+  <form method="post" action="/registrarse">
+    <input type="submit" value="Registrarse">
+    <br/>
+   
+    <br/>
+  </form>
+  <form method="post" action="/eliminarUsuario">
+    <input type="submit" value="Eliminar">
+    <br/>
+   
+    <br/>
+  </form>
+  <form method="post" action="/listarUsuarios">
+    <input type="submit" value="ListarUsuarios">
+    <br/>
+   
+    <br/>
+  </form>
+  <p>
+   <h2>Respuestas</h2>
+    <textarea rows="50" cols="100" readonly="true"><%= @mensajeMostrar %>
+    </textarea>
+  </p>
+ </body>
+</html>
